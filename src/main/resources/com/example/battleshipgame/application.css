@@ -1,0 +1,64 @@
+.root{
+    -fx-font-family: "Ink Free";
+}
+
+
+
+#consoleListViewID{
+    -fx-background-color: rgba(0, 0, 0, 0.17);
+    -fx-font-weight: bold;
+    -fx-border-color: black;
+    -fx-font-size: 18px;
+
+}
+
+
+.list-cell {
+    -fx-background-color: transparent;
+}
+.list-view {
+    -fx-background-color: transparent;
+}
+
+
+
+
+
+#backgroundBoardID{
+    -fx-background-image: url("img/backgrounds/battleship_game_board.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+
+}
+
+
+#winsLabelID{
+    -fx-font-family: "Ink Free";
+    -fx-font-size: 28px;
+}
+#loseLabelID{
+    -fx-font-family: "Ink Free";
+    -fx-font-size: 28px;
+}
+
+.button{
+    -fx-background-color: transparent;
+    -fx-font-size: 16px;
+    -fx-font-weight: 900;
+    -fx-opacity: 1.0;
+
+}
+
+#newGameButtonID{
+    -fx-font-size: 24px;
+    -fx-background-color: rgba(0, 0, 0, 0.17);
+    -fx-border-color: black;
+
+
+}
+
+.button:pressed{
+
+-fx-background-color: grey;
+}
+

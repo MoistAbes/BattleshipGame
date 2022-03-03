@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane id="backgroundBoardID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="745.0" prefWidth="1176.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Pane fx:id="mainPaneID" prefHeight="810.0" prefWidth="1379.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane fx:id="computerBoardID" alignment="CENTER" layoutX="520.0" layoutY="73.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="37.0" minWidth="35.0" prefWidth="37.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="37.0" minWidth="35.0" prefWidth="37.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="37.0" minWidth="34.0" prefWidth="37.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="41.0" minWidth="35.0" prefWidth="38.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="37.0" minWidth="35.0" prefWidth="37.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="37.0" minWidth="35.0" prefWidth="37.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="34.0" prefWidth="34.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="45.0" minWidth="35.0" prefWidth="41.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="45.0" minWidth="35.0" prefWidth="36.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="49.0" minWidth="35.0" prefWidth="49.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="37.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="37.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="37.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="37.0" minHeight="6.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="37.0" minHeight="10.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="37.0" minHeight="10.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="37.0" minHeight="10.0" prefHeight="32.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="boardField9_9" alignment="CENTER" contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" textAlignment="CENTER" />
+                  <Button fx:id="boardField9_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField8_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField8_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField7_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField7_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField9_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="34.0" GridPane.columnIndex="2">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField9_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" />
+                  <Button fx:id="boardField9_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" />
+                  <Button fx:id="boardField9_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" />
+                  <Button fx:id="boardField9_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" />
+                  <Button fx:id="boardField9_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7">
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField9_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" />
+                  <Button fx:id="boardField9_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" />
+                  <Button fx:id="boardField6_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField5_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField4_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField3_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField2_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField1_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField0_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField6_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField5_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField4_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField3_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField2_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField1_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField0_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField8_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField7_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField6_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField5_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField4_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField3_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField2_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField1_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField0_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField8_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField7_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField6_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField5_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField4_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField3_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField2_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField1_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField0_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField8_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField7_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField6_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField5_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField4_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField3_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField2_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField1_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField0_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField8_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField7_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField6_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField5_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField4_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField3_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField2_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField1_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField0_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField8_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField7_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField6_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField5_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField4_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField3_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField2_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField1_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField0_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField8_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField7_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField6_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField5_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField4_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField3_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField2_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField1_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="8">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField0_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="9">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField8_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField7_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField6_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField5_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField4_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField3_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField2_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField1_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField0_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField8_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField7_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField6_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField5_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField4_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField3_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField2_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField1_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField0_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+               </children>
+            </GridPane>
+            <GridPane fx:id="playerBoardID" alignment="CENTER" layoutX="557.0" layoutY="555.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="37.0" minWidth="35.0" prefWidth="37.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="37.0" minWidth="35.0" prefWidth="37.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="37.0" minWidth="34.0" prefWidth="37.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="41.0" minWidth="35.0" prefWidth="38.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="37.0" minWidth="35.0" prefWidth="37.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="37.0" minWidth="35.0" prefWidth="37.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="34.0" prefWidth="34.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="45.0" minWidth="35.0" prefWidth="41.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="45.0" minWidth="35.0" prefWidth="36.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="49.0" minWidth="35.0" prefWidth="49.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="37.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="37.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="37.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="37.0" minHeight="6.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="37.0" minHeight="10.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="37.0" minHeight="10.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="37.0" minHeight="10.0" prefHeight="32.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Button fx:id="boardField0_0" alignment="CENTER" contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" textAlignment="CENTER" />
+                  <Button fx:id="boardField0_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField1_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField1_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField2_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField2_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField0_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="34.0" GridPane.columnIndex="2">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField0_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" />
+                  <Button fx:id="boardField0_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" />
+                  <Button fx:id="boardField0_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" />
+                  <Button fx:id="boardField0_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" />
+                  <Button fx:id="boardField0_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7">
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField0_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" />
+                  <Button fx:id="boardField0_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" />
+                  <Button fx:id="boardField3_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField4_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField5_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField6_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField7_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField8_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField9_0" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField3_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField4_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField5_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField6_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField7_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField8_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField9_1" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField1_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField2_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField3_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField4_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField5_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField6_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField7_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField8_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField9_2" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField1_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField2_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField3_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField4_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField5_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField6_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField7_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField8_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField9_3" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField1_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField2_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField3_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField4_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField5_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField6_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField7_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField8_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField9_4" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField1_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField2_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField3_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField4_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField5_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField6_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField7_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField8_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField9_5" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField1_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField2_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField3_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField4_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField5_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField6_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField7_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField8_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField9_6" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField1_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField2_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField3_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField4_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField5_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField6_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField7_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField8_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="8">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField9_7" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="37.0" GridPane.columnIndex="7" GridPane.rowIndex="9">
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets left="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="boardField1_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField2_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField3_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField4_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField5_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField6_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField7_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField8_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField9_8" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+                  <Button fx:id="boardField1_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+                  <Button fx:id="boardField2_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+                  <Button fx:id="boardField3_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+                  <Button fx:id="boardField4_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+                  <Button fx:id="boardField5_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+                  <Button fx:id="boardField6_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+                  <Button fx:id="boardField7_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+                  <Button fx:id="boardField8_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+                  <Button fx:id="boardField9_9" mnemonicParsing="false" opacity="0.15" prefHeight="35.0" prefWidth="35.0" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+               </children>
+            </GridPane>
+            <ListView fx:id="consoleListViewID" layoutX="144.0" layoutY="258.0" prefHeight="358.0" prefWidth="303.0" />
+            <Button fx:id="newGameButtonID" layoutX="980.0" layoutY="850.0" mnemonicParsing="false" text="New game">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Label fx:id="winsLabelID" layoutX="1200.0" layoutY="850.0" text="Win:">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="loseLabelID" layoutX="1300.0" layoutY="850.0" text="Lose:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </center>
+   <left>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </right>
+   <top>
+      <Pane prefHeight="66.0" prefWidth="1176.0" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
